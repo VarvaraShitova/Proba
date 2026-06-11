@@ -92,21 +92,7 @@
 
         }
 
-        private void BTNFiltr_Click(object sender, RoutedEventArgs e)
-        {
-            RefreshOrder();
-        }
-
-        private void BTNSbrosFiltr_Click(object sender, RoutedEventArgs e)
-        {
-            CBZakazchik.SelectedItem = null;
-            RefreshOrder();
-        }
-
-        private void BTNSearch_Click(object sender, RoutedEventArgs e)
-        {
-            RefreshOrder();
-        }
+        
 
         // Вспомогательный метод для получения выбранного поля из ListBox
         private string GetSelectedSortField()
