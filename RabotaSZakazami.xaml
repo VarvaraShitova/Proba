@@ -13,8 +13,8 @@
         <StackPanel Orientation="Horizontal">
             <Label Content="Выберите заказчика" Margin="5"/>
             <ComboBox Name="CBZakazchik" Width="150" Margin="5"/>
-            <Button x:Name="BTNFiltr" Content="Фильтровать" Width="110" Margin="5" Click="BTNFiltr_Click"/>
-            <Button x:Name="BTNSbrosFiltr" Content="Показать все" Width="110" Margin="5" Click="BTNSbrosFiltr_Click"/>
+            <Button x:Name="BTNFiltr" Content="Фильтровать" Width="110" Margin="5"/>
+            <Button x:Name="BTNSbrosFiltr" Content="Показать все" Width="110" Margin="5" />
         </StackPanel>
         <StackPanel Grid.Column="1" Grid.RowSpan="2">
             <Label Content="Выберите поле для сортировки" Margin="5"/>
@@ -33,7 +33,7 @@
         <StackPanel Orientation="Horizontal" Grid.Row="1">
             <TextBlock Text="Введите строку поиска" Margin="5"/>
             <TextBox x:Name="TBSearch" Width="200" Margin="5"/>
-            <Button x:Name="BTNSearch" Content="Найти" Width="150" Margin="5" Click="BTNSearch_Click"/>
+            <Button x:Name="BTNSearch" Content="Найти" Width="150" Margin="5"/>
         </StackPanel>
         <DataGrid Name="DGOrders"  Grid.Row="2" Grid.ColumnSpan="2" AutoGenerateColumns="False" IsReadOnly="True">
             <DataGrid.Columns>
